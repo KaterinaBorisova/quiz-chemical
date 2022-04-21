@@ -1,0 +1,75 @@
+body{
+    background-image: url(lab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(127, 139, 243);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#question{
+    display: flex;
+    flex-direction: column;
+    background-color:hsla(240, 2%, 37%, 0.814) ;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: blanchedalmond;
+    border: 2px solid #092a5f4b;
+    border-radius: 4px;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+label{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:40px;
+    color: rgb(58, 57, 57);
+}
+button{
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    font-size:20px ;
+    background-color: rgb(72, 113, 190);
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: cornsilk;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: darkblue;
+}
+button:active{
+    box-shadow: rgb(172, 168, 168);
+    transform: translateY(3px);
+}
+#show{
+    font-size: 30px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: auto;
+    font-style: bold;
+    color: darkred;
+    padding-bottom: 15px;
+}
+.trueAnswer{
+    color: red;
+}
+
+@media all and (max-width:360px) {
+    #question{
+    padding-bottom: 20px;
+    }
+    
+}

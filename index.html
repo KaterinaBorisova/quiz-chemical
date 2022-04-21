@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victorina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Bai+Jamjuree&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+    <div class="header">
+        <h1>
+            Занимательная химия. 
+        </h1>
+        
+        <div>
+            <div id="question">
+                <label>Жидкий металл: </label>
+                <br>
+
+                <span>
+                    <input type="radio" name="questionOne">Свинец
+                    <input type="radio" name="questionOne">Висмут
+                    <input type="radio" name="questionOne">Сурьма
+                    <span  class="true"> <input type="radio" name="questionOne" id="answerOne">Ртуть</span>
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Газ поддерживающий горение: </label>
+                <br>
+                <span>
+                    <input type="radio" name="questionTwo">Водород
+                    <input type="radio" name="questionTwo">Азот
+                    <span class="true"><input type="radio" name="questionTwo" id="answerTwo" >Кислород</span>
+                    <input type="radio" name="questionTwo">Неон
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Наименьшая неделимая частица: </label>
+                <br>
+                <span>
+                    <span class="true"><input type="radio" name="questionThree" id="answerThree" class="true">Атом</span>
+                    <input type="radio" name="questionThree">Молекула
+                    <input type="radio" name="questionThree">Электрон
+                    <input type="radio" name="questionThree">Мицелла
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Самый распространённый элемент на Земле:</label>
+                <br>
+                <span>
+                    <input type="radio" name="questionFour">Железо
+                    <span class="true"><input type="radio" name="questionFour" id="answerFour" >Кислород</span>
+                    <input type="radio" name="questionFour">Азот
+                    <input type="radio" name="questionFour">Кремний
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Как называются соли серной кислоты: </label>
+                <br>
+                <span>
+                    <input type="radio" name="questionFive">Сульфиды
+                    <input type="radio" name="questionFive">Сульфиты
+                    <span class="true"><input type="radio" name="questionFive" id="answerFive" >Сульфаты</span>
+                    <input type="radio" name="questionFive">Пириты
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Состав молекулы воды:</label>
+                <br>
+                <span>
+                    <input type="radio" name="questionSix">H2O2
+                    <input type="radio" name="questionSix">2HO2
+                    <span  class="true"><input type="radio" name="questionSix" id="answerSix">H2O</span>
+                    <input type="radio" name="questionSix">2H2O
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Самый лёгкий газ:</label>
+                <br>
+                <span>
+                    <input type="radio" name="questionSeven">Азот
+                    <input type="radio" name="questionSeven">Кислород
+                    <input type="radio" name="questionSeven">Хлор
+                    <span class="true"><input type="radio" name="questionSeven" id="answerSeven" >Водород</span>
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Самый лёгкий металл:</label>
+                <br>
+                <span>
+                    <input type="radio" name="questionEight">Натрий
+                    <input type="radio" name="questionEight">Калий
+                    <span class="true"> <input type="radio" name="questionEight" id="answerEight" >Литий</span>
+                    <input type="radio" name="questionEight">Магний
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Биологические катализаторы:</label>
+                <br>
+                <span>
+                    <span class="true"><input type="radio" name="questionNine" id="answerNine">Ферменты</span> 
+                    <input type="radio" name="questionNine">Гормоны
+                    <input type="radio" name="questionNine">Жиры
+                    <input type="radio" name="questionNine">Углеводы
+                </span>
+            </div>
+<br>
+            <div id="question">
+                <label>Какую валентность имеет кислород:</label>
+                <br>
+                <span>
+                    <span class="true"><input type="radio" name="questionTen" id="answerTen" >2</span> 
+                    <input type="radio" name="questionTen">4
+                    <input type="radio" name="questionTen">6
+                    <input type="radio" name="questionTen">8
+                </span>
+            </div>
+<br>
+            <button type="submit" id="btn">Узнать баллы</button>
+<br>           
+            <p id="show"></p>   
+
+        </div>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
